@@ -156,8 +156,9 @@ input[type="checkbox"] {
   background-color: #eee;
 }
 
-.contact {
-	margin-bottom: 35px;
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 10px;
 }
 
 button {
@@ -175,16 +176,21 @@ button {
 /*Hover, checkbox, radio, and button effects*/
 input[type="checkbox"]:checked,
 input[type="radio"]:checked{
-  box-shadow: 0 0 0 3px blue;
+  box-shadow: 0 0 0 3px #3399FF;
 }
 
 input[type=checkbox]:hover + label,
 input[type=radio]:hover + label {
-  color: #ccc;
+  font-weight: bold;
 }
 
 button:hover {
   background-color: #93dea9;
+}
+
+input:focus,
+textarea:focus {
+border-color: #3399FF;
 }
 
 /***************************************

@@ -103,7 +103,8 @@ hr {
 }
 
 #zip{
-	width: 50%;
+	width: 30%;
+  margin-bottom: -15px;
 }
 
 .street {
@@ -205,10 +206,14 @@ For tablet screens or wider
     width: 30%;
     }
 
-    .inln_two{
+  .inln_two{
       width: 65%;
-
+      margin-top: 10px;
     }
+
+label[type="zip"] {
+  float: left;
+}
 
     .contact label {
       margin: 20px auto;
